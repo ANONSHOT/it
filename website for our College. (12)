@@ -1,0 +1,108 @@
+1. Create index.html file. 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title> PADMASHREE INSTITUE OF MANAGMENT AND SCEIENCES</title> 
+<style> 
+{ 
+<body> 
+{ 
+font-family:Arial,sans-serif;} 
+header 
+{ 
+} 
+background-color:#0077ee; 
+padding:20px; 
+nav{ 
+text-align:center; 
+margin:20px 0; 
+text-align:center; 
+} 
+nav a 
+{ 
+margin:0 15px; 
+} 
+</style> 
+</head> 
+<body> 
+<header> 
+<img src="C:\VS STUDIO\1631303680081.jpeg" alt="PADMSHREE INSTITUTE 
+OF MANAGMENT AND SCEINCES LOGO" width="100"> 
+<h1> 
+PADMSHREE INSTITUTE OF MANAGEMENT AND SCIENCES 
+</h1> 
+<p> 149, padmashree campus,Tavarekere - kengeri road kommaghatta main 
+road kengeri, bengaluru karnataka 560060 </p> 
+</header> 
+<nav> 
+26 
+<a href="C:\VS STUDIO\lab 12\index.html"> Home </a> 
+<a href="C:\VS STUDIO\lab 12\about.html"> About </a> 
+<a href="C:\VS STUDIO\lab 12\courses.html"> Courses </a> 
+<a href="C:\VS STUDIO\lab 12\contact.html"> Contact </a> 
+</nav> 
+<main> 
+<h2> PADMSHREE INSTITUTE OF MANAGMENT AND SCIENCES</h2> 
+<p> We provide best training on computer applications courses</p> 
+</main> 
+</body> 
+</html> 
+
+
+
+
+2. Create an about.html page for the About Us information: 
+
+
+
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title> PADMSHREEE INSTITUTE OF MANAGMNET AND SCIENCES</title> 
+</head> 
+<body> 
+<h1> About</h1> 
+<p> Padmshree is offering various skill upgrading and job-oriented courses under 
+DDU kaushal kendra recognized by UGC.New Delhi</p> 
+</body> 
+</html> 
+
+
+3. Create a courses.html page to list the courses provided by the institution: 
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+</head> 
+<title> Courses Skyward Institue Of omputer Applications</title> 
+<body> 
+<h1> Courses</h1> 
+<h2> BCA</h2> 
+<h2> MCA</h2> 
+</body> 
+</html> 
+
+
+
+4. Create a contact.html page to provide contact information: 
+27 
+
+
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title> Contact Us Padmashree Institute Of Managment And Sciences </title> 
+</head> 
+<body> 
+<h1> Contact Us</h1> 
+<p> 149. padmshree Campurs, Tavarakere- Kengeri Road, Kommaghatta Main 
+Road, Kengeri, Bengaluru karnataka 560060 </p> 
+<p> Phone: +91 9380313174 </p> 
+<p> Email: darshanjrdachhu@gmail.com</p> 
+</body> 
+</html> 
