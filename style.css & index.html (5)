@@ -1,0 +1,53 @@
+Step 1: Create below CSS and Save as style.css in a chosen directory
+
+/* external.css */ 
+h3 
+{ 
+} 
+color:darkgreen; 
+font-size:24px; 
+background: hotpink; 
+font-family:arial,sans-serif; 
+p.external.paragraph 
+{ 
+color:darkblue; 
+font-family:verdana,sans-serif; 
+font-size:18px; 
+}
+
+
+
+Step 2: Create HTML File and Save as CSSDemo.html in the same directory
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title> web page with diffrent css styles</title> 
+<style> 
+/* internal or documnet styles */ 
+h1 
+{ 
+} 
+color:red; 
+font-family: 'times new roman',times,serif; 
+p.internal-paragraph 
+{ 
+color:orange; 
+font-family:georgia,serif; 
+font-size:16px; 
+} 
+10 
+</style> 
+<link rel="stylesheet" type="text/css" href="C:\\VS STUDIO\\lab5.css"> 
+</head> 
+<body> 
+<h1 style="color:blue; font-family:helvetica;"> this is a heading with inline css </h1> 
+<p style="color:purple; font-family:helvetica;"> this is a paragraph with inline 
+css.</p> 
+<h2> this is a heading with internal css</h2> 
+<p class="internal-paragraph"> this is a paragraph with internal css.</p> 
+<h3> this is a heading with external css</h3> 
+<p class="external-paragraph"> this is a paragraph with external css.</p> 
+</body> 
+</html> 
