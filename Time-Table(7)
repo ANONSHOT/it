@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title> TIME TABLE </title> 
+</head> 
+<body> 
+<center> 
+<h1>PADMASHREE INSTIUTE OF MANAGMENT AND SCIENCES </h1> 
+<h2> KOMMAGHATTA KENGERI, BANGLORE</h2> 
+<h3> DEPARTMENT OF BCA </h3> 
+<h4> WEEKLY CLASS SCHEDULE </h4> 
+</center> 
+<font size="4px"> 
+<table border="2" width="1000" align="center"> 
+<tr > 
+<th> DAY </th> 
+<center> 
+<th> 9:30-10:30 </th> 
+<th> 10:30-11:30 </th> 
+<th> 11:30-12:30 </th> 
+<th> 12:30-01:30 </th> 
+<th> 01:30-02:30 </th> 
+<th> 02:30-03:30 </th> 
+<th> 03:30-04:30 </th> 
+</center> 
+</tr> 
+<tr> 
+<td align ="center"> MONDAY </td> 
+<td align="center"> IT </td> 
+<td align="center"> DAA </td> 
+<td align="center"> SE </td> 
+<td align="center"> LUNCH BREAK </td> 
+<td align="center"> KAN/HINDI </td> 
+<td align="center"> IT LAB </td> 
+<td align="center"> IT LAB</td> 
+</tr> 
+<tr> 
+<td align="center"> TUESDAY</td> 
+14 
+<td align="center">IT</td> 
+<td align="center"> DAA</td> 
+<td  align="center"> SE</td> 
+<td align="center"> LUNCH BREAK</td> 
+<td align="center"> OE</td> 
+<td align="center"> IT LAB </td> 
+<td align="center"> IT LAB </td> 
+</tr> 
+<tr> 
+<td align="center"> WEDNESDAY</td> 
+<td align="center"> IT</td> 
+<td align="center">DAA</td> 
+<td align="center"> SE</td> 
+<td align="center"> LUNCH BREAK</td> 
+<td align="center"> OE</td> 
+<td align="center"> DAA LAB</td> 
+<td align="center"> DAA LAB</td> 
+</tr> 
+<tr> 
+<td align="center"> THURSDAY</td> 
+<td align="center"> OE(BLS) </td> 
+<td align="center">  OE(BLS) </td> 
+<td align="center"> DAA </td> 
+<td align="center"> LUNCH BREAK</td> 
+<td align="center"> KAN/HINDI </td> 
+<td align="center"> CAR LAB </td> 
+<td align="center"> CAR LAB </td> 
+</tr> 
+<tr> 
+<td align="center"> FRIDAY</td> 
+<td align="center">DAA </td> 
+<td align="center">SE</td> 
+<td align="center"> IT</td> 
+<td align="center"> LUNCH BREAK</td> 
+<td align="center"> KAN/HINDI</td> 
+<td align="center"> DAA LAB</td> 
+<td align="center"> DAA LAB</td> 
+</tr> 
+<tr> 
+15 
+<td align="center"> SATURDAY</td> 
+<td align="center">SE</td> 
+<td align="center">IT</td> 
+<td align="center">DAA</td> 
+<td align="center"> LUNCH BREAK</td> 
+<td align="center"> CAR LAB</td> 
+<td align="center"> CAR LAB</td> 
+<td align="center"> CAR LAB</td> 
+</tr> 
+</table > 
+</font> 
+</body> 
+</html> 
