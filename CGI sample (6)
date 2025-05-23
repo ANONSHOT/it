@@ -1,0 +1,57 @@
+Common Gateway Interface (CGI) is a standard method used by web servers to interact 
+with backend applications. It can be used to create dynamic content on web pages and 
+is supported by a wide variety of languages including Python, Perl, C, C++, and so on. 
+For the purpose of this program, Python will be used to create a simple CGI script that 
+will return an output to the user. The following steps will guide through the process of 
+setting up the environment in a Windows system, starting from installing the Apache 
+server and Python, configuring Apache to support CGI, and finally writing and running 
+the CGI program. 
+Step 1: Install Apache Server 
+1. Visit the Apache Lounge website (https://www.apachelounge.com/download/) and 
+download the appropriate version of Apache based on the system's architecture (32-bit 
+or 64-bit). 
+2. Extract the downloaded file to C:\ 
+3. Open the Command Prompt with administrative rights (Right-click -> Run as 
+administrator). 
+4. Navigate to the Apache bin directory by typing cd C:\Apache24\bin and pressing 
+Enter. 
+5. Install Apache as a service by typing httpd.exe -k install and pressing Enter. 
+6. To start Apache, type httpd.exe -k start and press Enter. If Apache starts without any 
+error messages, the installation was successful. (or) click on C:\Apache24\bin\httpd.exe 
+Step 2: Install Python 
+1. Visit the official Python website (https://www.python.org/downloads/windows/) and 
+download the latest Python installer. 
+2. Run the installer, ensure "Add Python to PATH" is checked, and follow the prompts to 
+install Python. 
+Step 3: Configure Apache for CGI 
+1. Open the Apache configuration file located at C:\Apache24\conf\httpd.conf in a text 
+editor: 
+2. Uncomment the following lines (remove the # at the start of the line): LoadModule cgi 
+module modules/mod_cgi.so AddHandler cgi-script .cgi.py 
+3. In the same file, find the section and change the Options line to: Options Indexes 
+FollowSymLinks ExecCGI 
+4. And add the following line: AddHandler cgi-script.cgi.py 
+5. Change the ScriptAlias as shown below: ScriptAlias /cgi-bin/ "C:/Apache24/cgi-bin/" 
+6. Save and close the file. 
+12 
+7. Restart Apache by opening the Command Prompt as administrator, navigating to 
+C:\Apache24\bin and typing httpd.exe -k restart. 
+Step 4: Create and Run the CGI Script 
+1. In the C:\apache\Apache24\cgi-bin directory, create a new file called hello.py. 
+2. Write the following Python code into the file: 
+Code: hello.py 
+#!E:/Python/python.exe 
+# Change the path if Python is installed in different path. 
+print("Content-Type: text/html") 
+# HTML is following 
+print() 
+#blank line required, end of headers 
+print(“<html> 
+<body> 
+<h1> HELLO BCA STUDENTS, WELCOME TO CGI </h1> 
+<body> 
+</html>”) 
+3. Save and close the file. 
+4. Open a web browser and navigate to http://localhost/cgi-bin/hello.py. If 
+everything has been set up correctly, "Hello BCA Students, Welcome to CGI!" 
+should be displayed in the browser.
