@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title> 
+arithmetic opereations 
+</title> 
+<script type="text/javascript"> 
+function performoperations() 
+{ 
+var num1=parseFloat(document.getElementById("number1").value); 
+var num2=parseFloat(document.getElementById("number2").value); 
+document.getElementById("addition").innerHTML="addition:"+(num1+num2); 
+document.getElementById("substraction").innerHTML="substraction:"+(num1-num2); 
+document.getElementById("multiplications").innerHTML="multiplication:"+(num1*num2); 
+document.getElementById("division").innerHTML="division:"+(num1/num2); 
+} 
+</script> 
+</head> 
+<body> 
+<h1>arithmetic opereations</h1> 
+<form> 
+number1:<input type="number" id="number1"><br> 
+number2:<input type="number" id="number2"><br> 
+<input type="button" value="calculate" onclick="performoperations()"> 
+</form> 
+<p id="addition"></p> 
+<p id="substraction"></p> 
+<p id="multiplications"></p> 
+<p id="division"></p> 
+</body> 
+</html> 
