@@ -34,8 +34,8 @@ Step 4: Create the main frameset HTML file
 <!DOCTYPE html> 
 <html> 
 <frameset cols="20%,60%,20%"> 
-<frame src="C:\VS STUDIO\lab 8\menu.html" name="menu_frame"> 
-<frame src="C:\VS STUDIO\lab 8\content.html" name="content_frame"> 
-<frame src="C:\VS STUDIO\lab 8\info.html" name="info_frame"> 
+<frame src="menu.html" name="menu_frame"> 
+<frame src="content.html" name="content_frame"> 
+<frame src="info.html" name="info_frame"> 
 </frameset> 
 </html> 
