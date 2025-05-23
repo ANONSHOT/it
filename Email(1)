@@ -1,0 +1,37 @@
+Lab 1: Demonstrate E-Mail working (Sending, Receiving, forward) 
+2 
+Let us consider Gmail as an example to demonstrate E-mail working. Gmail is a widely 
+used email service provided by Google. It supports both SMTP (Simple Mail Transfer 
+Protocol) and IMAP/POP3 (Internet Message Access Protocol/Post Office Protocol 3) 
+for email transmission. SMTP is utilized when sending emails, allowing Gmail to transfer 
+outgoing mail to the recipients' servers. The protocols like IMAP and POP3 are used 
+when receiving emails; these protocols help Gmail fetch incoming mail from the server, 
+allowing users to view their emails from any device. 
+Step 1: Sending an Email 
+1. Open a web browser and go to Gmail's website. 
+2. Enter the email ID and password to login. 
+3. Click on the 'Compose' button, usually found on the top left corner. 
+4. In the "To' field, type in the email address of the recipient. 
+5. If needed, add more recipients in the 'Cc' or 'Bcc' fields. 
+6. Write a brief, relevant line in the 'Subject' field to indicate the topic of the email. 
+7. In the main body field, type the content of the email. 
+8. If there are files to send along with the email, click on the 'Attach files' icon (usually 
+represented by a paperclip) and select the files. 
+9. Review the email for any errors or omissions. 
+10. Click on the 'Send' button to send the email.. 
+Step 2: Receiving an Email 
+1. Once logged into the Gmail account, the 'Inbox' can be found on the left side panel. 
+2. Click on 'Inbox', 
+3. New emails will be visible in the list. Click on any email to open and read it. 
+4. If the email has any attachments, they can be opened or downloaded by clicking on 
+them. 
+Step 3: Forwarding an Email 
+1. Open the email intended to be forwarded by clicking on it in the 'Inbox'. 
+2. At the bottom of the email, find the 'Forward' button or icon (usually denoted by an 
+arrow) and click on it. 
+3. This will open a new email window with the content of the original email in the body. 
+4. In the "To' field, type in the email address of the person to whom the email is being 
+forwarded. 
+5. If needed, additional text can be added to the email before forwarding. 
+6. Review the email. 
+7. Click on the 'Send' button to forward the email. 
