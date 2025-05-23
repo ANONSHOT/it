@@ -1,0 +1,41 @@
+Step 1: Create the menu.html file 
+<!DOCTYPE html> 
+<html> 
+<body> 
+<h2>MENU<h2> 
+<ul> 
+<li> chicken biriyani</li> 
+<li> butter chicken</li> 
+<li> panner masala</li> 
+<li> ragi ball and mutton soup</li> 
+</ul> 
+</body> 
+</html> 
+Step 2: Create the content.html file 
+<!DOCTYPE html> 
+<html> 
+<body> 
+<h2>CONTENT</h2> 
+<p> welcome to our star msasal food restaurant! we serve a variety of delicious 
+dishes.</p> 
+</body> 
+</html> 
+Step 3: Create the info.html file 
+<!DOCTYPE html> 
+<html> 
+<body> 
+<h2>INFO</h2> 
+<p>we are located in padmashree institute of manangment and sciences  at 
+kengeri bangalore it open from 9:30AM to 5:30PM every Sunday is holiday. </p> 
+</body> 
+</html> 
+Step 4: Create the main frameset HTML file 
+17 
+<!DOCTYPE html> 
+<html> 
+<frameset cols="20%,60%,20%"> 
+<frame src="C:\VS STUDIO\lab 8\menu.html" name="menu_frame"> 
+<frame src="C:\VS STUDIO\lab 8\content.html" name="content_frame"> 
+<frame src="C:\VS STUDIO\lab 8\info.html" name="info_frame"> 
+</frameset> 
+</html> 
